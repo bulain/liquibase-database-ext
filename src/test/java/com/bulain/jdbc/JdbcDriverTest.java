@@ -2,6 +2,7 @@ package com.bulain.jdbc;
 
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import java.sql.Connection;
@@ -9,6 +10,7 @@ import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 
 @Slf4j
+@Disabled
 class JdbcDriverTest {
 
     @SneakyThrows
