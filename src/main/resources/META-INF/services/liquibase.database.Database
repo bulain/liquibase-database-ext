@@ -1,0 +1,2 @@
+com.bulain.liquibase.database.ext.DmsqlDatabase
+com.bulain.liquibase.database.ext.KbsqlDatabase
