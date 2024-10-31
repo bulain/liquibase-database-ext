@@ -33,7 +33,7 @@ public class DmsqlDatabase extends OracleDatabase {
 
     @Override
     public String getDefaultDriver(String url) {
-        if (url.startsWith("jdbc:dm")) {
+        if (url.startsWith("jdbc:dm:")) {
             return "dm.jdbc.driver.DmDriver";
         }
         return null;
