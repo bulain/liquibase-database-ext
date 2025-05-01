@@ -69,9 +69,14 @@
                 <version>1.18.20</version>
             </dependency>
             <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.18.0</version>
+            </dependency>
+            <dependency>
                 <groupId>cn.com.kingbase</groupId>
                 <artifactId>kingbase8</artifactId>
-                <version>8.6.0</version>
+                <version>8.6.1</version>
             </dependency>
             <dependency>
                 <groupId>com.dameng</groupId>
